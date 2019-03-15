@@ -1,10 +1,6 @@
-this projects is a simple showcase for different design patterns 
+<h3>this projects is a simple showcase for different design patterns</h3>
 
-````kotlin
-fun doSomething() {
 
-}
-````
-
+* **proxy**
 
 
