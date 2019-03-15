@@ -11,6 +11,6 @@ class RealImage(private val fileName: String) : Image {
     }
 
     private fun loadFromDisk(fileName: String) {
-        println("Loading $fileName")
+        println("Loading $fileName from disk")
     }
 }
