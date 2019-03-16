@@ -1,6 +1,11 @@
 package objectpool
 
 fun main(args: Array<String>) {
+    /*
+    each battery creates 1 second to get created so we are using an object pool
+    this way we don't have to use a new battery every single time we need one we use already created ones
+     */
+
 
     val chargerDock = BatteryChargerDock()
 

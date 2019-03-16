@@ -2,6 +2,11 @@ package objectpool
 
 class Battery {
 
+    init {
+        //making cost of battery creation high
+        Thread.sleep(1000)
+    }
+
     private val created = System.currentTimeMillis()
 
     var isCharging: Boolean = false
